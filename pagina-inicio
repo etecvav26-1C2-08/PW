@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPro - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Dev<span>Pro</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="profissao.html">A Profissão</a></li>
+                    <li><a href="curso.htm">O Curso</a></li>
+                    <li><a href="carreira.html">Carreira & Salário</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>O Universo do Desenvolvimento de Software</h2>
+            <p>Construindo o futuro através de linhas de código. Conheça uma das profissões mais dinâmicas, valorizadas e essenciais do mercado tecnológico mundial.</p>
+        </section>
+
+        <section>
+            <h2>Sobre o Projeto</h2>
+            <p>Este site foi desenvolvido com o objetivo de mapear e apresentar a carreira de <strong>Desenvolvedor(a) de Software</strong>. Navegando pelas páginas, você encontrará dados detalhados sobre as atribuições do cargo, o ecossistema educacional e universitário, a realidade do mercado de trabalho, tabelas salariais atualizadas e as competências mais requisitadas pelas empresas.</p>
+            
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&auto=format&fit=crop&q=80" alt="Computador com linhas de código" class="featured-img">
+
+            <div class="grid">
+                <div class="card">
+                    <h3>A Profissão</h3>
+                    <p>Entenda o que faz um desenvolvedor, o cotidiano da profissão e a diferença entre Front-End, Back-End e Full-Stack.</p>
+                    <a href="profissao.html">Saber mais &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Formação Acadêmica</h3>
+                    <p>Descubra as principais universidades do Brasil que oferecem cursos na área e as modalidades de graduação mais comuns.</p>
+                    <a href="curso.htm">Saber mais &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Mercado & Salários</h3>
+                    <p>Analise dados de remuneração média de níveis júnior a sênior e conheça as empresas líderes que contratam esses talentos.</p>
+                    <a href="carreira.html">Saber mais &rarr;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Atividade Acadêmica | Desenvolvido por HERMANOS DEL FUEGO</p>
+    </footer>
+
+</body>
+</html>
