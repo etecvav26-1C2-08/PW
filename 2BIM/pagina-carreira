@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPro - Carreira & Salário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Dev<span>Pro</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="profissao.html">A Profissão</a></li>
+                    <li><a href="curso.htm">O Curso</a></li>
+                    <li><a href="carreira.html" class="active">Carreira & Salário</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>O Mercado de Trabalho de Tecnologia</h2>
+        <p>A área de Desenvolvimento de Software permanece como uma das mais aquecidas do mercado corporativo mundial. Praticamente todas as empresas modernas necessitam de braços tecnológicos estáveis para suas operações cotidianas.</p>
+
+        <h2>Salário Médio da Profissão</h2>
+        <p>A remuneração varia consideravelmente dependendo de sua senioridade (tempo de experiência e nível de autonomia), habilidades técnicas e localização geográfica.</p>
+        
+        <div class="chart-container">
+            <h3 style="color: var(--primary); margin-bottom: 5px;">Média Salarial Mensal por Senioridade (BR - R$)</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 20px;">Valores médios estimados com base nos principais portais de contratação do Brasil.</p>
+            
+            <div class="chart-row">
+                <div class="chart-label">Estagiário</div>
+                <div class="chart-bar-wrapper">
+                    <div class="chart-bar" style="width: 20%;">R$ 2.000</div>
+                </div>
+            </div>
+            <div class="chart-row">
+                <div class="chart-label">Júnior</div>
+                <div class="chart-bar-wrapper">
+                    <div class="chart-bar" style="width: 45%;">R$ 4.500</div>
+                </div>
+            </div>
+            <div class="chart-row">
+                <div class="chart-label">Pleno</div>
+                <div class="chart-bar-wrapper">
+                    <div class="chart-bar" style="width: 75%;">R$ 8.500</div>
+                </div>
+            </div>
+            <div class="chart-row">
+                <div class="chart-label">Sênior</div>
+                <div class="chart-bar-wrapper">
+                    <div class="chart-bar" style="width: 100%; background-color: var(--primary);">R$ 14.000+</div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Grandes Empresas Contratantes</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Big Techs</h3>
+                <p>Empresas multinacionais focadas puramente em inovação, conhecidas pelos processos seletivos concorridos. Exemplos: Google, Microsoft e Amazon.</p>
+            </div>
+            <div class="card">
+                <h3>Setor Financeiro</h3>
+                <p>Bancos tradicionais e Fintechs contratam milhares de desenvolvedores para manter segurança e escalabilidade. Exemplos: Nubank e Itaú.</p>
+            </div>
+            <div class="card">
+                <h3>Consultorias de Software</h3>
+                <p>Empresas prestadoras de serviços terceirizados que desenvolvem soluções sob medida para múltiplos clientes. Exemplos: CI&T e Stefanini.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Atividade Acadêmica | Desenvolvido por HERMANOS DEL FUEGO</p>
+    </footer>
+
+</body>
+</html>
