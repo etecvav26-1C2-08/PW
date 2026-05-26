@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPro - O Curso</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Dev<span>Pro 67</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="profissao.html">A Profissão</a></li>
+                    <li><a href="curso.htm" class="active">O Curso</a></li>
+                    <li><a href="carreira.html">Carreira & Salário</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Formação Acadêmica na Área de TI</h2>
+        <p>Para se tornar um Desenvolvedor de Software profissional, existem diferentes caminhos acadêmicos tradicionais de nível superior. Os cursos mais comuns que dão a base necessária para a profissão são:</p>
+        
+        <ul class="styled-list">
+            <li><strong>Ciência da Computação:</strong> Bacharelado (4 anos) focado em fundamentos matemáticos, estruturas de dados e conceitos profundos de computação.</li>
+            <li><strong>Engenharia de Software:</strong> Bacharelado (4 a 5 anos) focado no ciclo de vida de desenvolvimento, gerenciamento de projetos e arquitetura de sistemas.</li>
+            <li><strong>Análise e Desenvolvimento de Sistemas (ADS):</strong> Tecnólogo (2 a 3 anos) focado em rápida inserção no mercado de trabalho e forte carga de programação prática.</li>
+        </ul>
+
+        <h2>Principais Faculdades e Universidades</h2>
+        <p>Abaixo estão listadas algumas das instituições de ensino superior públicas e privadas mais reconhecidas do Brasil na área:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Instituição</th>
+                    <th>Sigla</th>
+                    <th>Tipo</th>
+                    <th>Principais Cursos Oferecidos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Universidade de São Paulo</td>
+                    <td>USP</td>
+                    <td>Pública Estado</td>
+                    <td>Ciência da Computação / Eng. de Computação</td>
+                </tr>
+                <tr>
+                    <td>Universidade Estadual de Campinas</td>
+                    <td>UNICAMP</td>
+                    <td>Pública Estado</td>
+                    <td>Engenharia de Software / Ciência da Computação</td>
+                </tr>
+                <tr>
+                    <td>Universidade Federal de Minas Gerais</td>
+                    <td>UFMG</td>
+                    <td>Pública Federal</td>
+                    <td>Ciência da Computação / Sistemas de Informação</td>
+                </tr>
+                <tr>
+                    <td>Faculdade de Informática e Administração Paulista</td>
+                    <td>FIAP</td>
+                    <td>Privada</td>
+                    <td>Análise e Desenv. de Sistemas / Eng. de Software</td>
+                </tr>
+                <tr>
+                    <td>Pontifícia Universidade Católica</td>
+                    <td>PUC</td>
+                    <td>Privada</td>
+                    <td>Engenharia de Software / Ciência da Computação</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Disciplinas Frequentes na Grade Curricular</h2>
+        <div class="grid">
+            <div class="card" style="text-align: center;">
+                <h4>Algoritmos e Estrutura de Dados</h4>
+            </div>
+            <div class="card" style="text-align: center;">
+                <h4>Programação Orientada a Objetos</h4>
+            </div>
+            <div class="card" style="text-align: center;">
+                <h4>Engenharia de Requisitos</h4>
+            </div>
+            <div class="card" style="text-align: center;">
+                <h4>Bancos de Dados</h4>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p> 2026 - Atividade Acadêmica | Desenvolvido por HERMANOS DEL FUEGO</p>
+    </footer>
+
+</body>
+</html>
